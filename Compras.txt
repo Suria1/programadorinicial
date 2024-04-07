@@ -5,3 +5,6 @@ verduras
 carnes
 quesos y lacteos
 limpieza
+enlatados
+congelados
+bebidas
