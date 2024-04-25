@@ -1,0 +1,63 @@
+h2 {
+    color: brown;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-shadow: 2px -2px 2px rgba(230, 40, 40, 0.37);
+    text-align: left;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+    font-family: sans-serif;
+    border-top: 5px double #ff6550;
+    border-bottom: 5px double #ff6550;
+    background: #dbdada;
+
+}
+
+p {
+    color: #834513;
+    font-family: Arial;
+    font-size: 18px;
+    width: 80%;
+
+}
+
+img {
+    position: flex;
+    left: 900px;
+    top: auto;
+    width: 270px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#novelas_peliculas {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 50px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-rule: 2px groove #e42121;
+    -webkit-column-rule: 2px groove #e42121;
+    -moz-column-rule: 2px groove #e42121;
+}
+
+li {
+    color: #834513;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+h4 {
+    color: rgb(49, 48, 48);
+    text-align: center;
+    font-family: sans-serif;
+    border-top: 3px double #ff6550;
+    border-bottom: 3px double #ff6550;
+}
