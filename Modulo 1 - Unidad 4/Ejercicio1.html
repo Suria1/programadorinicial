@@ -8,21 +8,24 @@
 <body>
 
     <script>
-        const metros = 1000;
+        const metros = 96000;
         let medio_de_transporte = "";
 
         if (metros > 0 && metros <= 1000) {
             medio_de_transporte = "Pie";
         } else if (metros > 1000 && metros <= 10000) {
             medio_de_transporte = "Bicicleta";
-        } else if (metros > 10000 && metros <= 100000) {
+        } else if (metros > 10000 && metros <= 30000) {
             medio_de_transporte = "Colectivo";
-        } else if (metros > 1000 && metros <= 10000) {
+        } else if (metros > 30000 && metros <= 100000) {
             medio_de_transporte = "Auto";
-        } else (metros > 100000 ) 
+        } else if (metros > 100000 ) {
             medio_de_transporte = "Avión";
+        }
+            
         
-        console.log("Para ${metros} metros el medio de transporte recomendado es ${medio_de_transporte}")
+
+        console.log(`Para ${metros} metros el medio de transporte recomendado es ${medio_de_transporte} `);
 
 
     </script>
