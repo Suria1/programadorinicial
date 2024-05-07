@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+    <script>
+        const metros = 1000;
+        let medio_de_transporte = "";
+    
+
+        if (metros > 0 && metros <= 1000) {
+            medio_de_transporte = "Pie";
+        } else if (metros > 1000 && metros <= 10000) {
+            medio_de_transporte = "Bicicleta";
+        } else if (metros > 10000 && metros <= 100000) {
+            medio_de_transporte = "Colectivo";
+        } else if (metros > 1000 && metros <= 10000) {
+            medio_de_transporte = "Auto";
+        } else (metros > 100000 ) {
+            medio_de_transporte = "Avión";
+        }
+        console.log("Para ${metros} metros el medio de transporte recomendado es ${medio_de_transporte}")
+
+
+    </script>
+</body>
+
+</html>
