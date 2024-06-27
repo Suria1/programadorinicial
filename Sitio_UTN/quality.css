@@ -1,0 +1,62 @@
+/*
+ font-family: "Open Sans", sans-serif;
+ font-family: "Alfa Slab One", serif;
+ font-family: "Roboto", sans-serif;
+*/
+.margen {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+.footer { 
+    height:500px;
+    line-height: 40px;
+    background:black;
+    color:white;
+    position:absolute;
+    left:0;
+    width:100%;
+    padding: 20px;
+    
+}
+.formulario {
+    color: azure;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    position: relative;
+}
+.foot {
+    color: azure;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    position: relative;
+}
+h5 {
+    font-family: "Roboto", sans-serif;
+
+}
+h2 {
+    font-family: "Alfa Slab One", serif;
+
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.term {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    padding-right: 20px;
+    text-align: left;
+    padding-top: 20px;
+
+}
+.contenido{
+    text-align: center;
+}
