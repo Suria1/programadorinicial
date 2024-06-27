@@ -7,7 +7,6 @@
     margin-top: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
-
 }
 .footer { 
     height:500px;
@@ -18,7 +17,6 @@
     left:0;
     width:100%;
     padding: 20px;
-    
 }
 .formulario {
     color: azure;
@@ -38,15 +36,15 @@
 }
 h5 {
     font-family: "Roboto", sans-serif;
-
 }
 h2 {
     font-family: "Alfa Slab One", serif;
-
+    text-align: center;
 }
 p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    text-align: center;
 }
 .term {
     font-family: "Roboto", sans-serif;
@@ -55,8 +53,12 @@ p {
     padding-right: 20px;
     text-align: left;
     padding-top: 20px;
-
 }
-.contenido{
+.carousel_letra {
+    color: black(255, 123, 0);
+    background-color: rgba(169, 169, 169, 0.986);
+    font-family: "Roboto", sans-serif;
+}
+.card-title {
     text-align: center;
 }
