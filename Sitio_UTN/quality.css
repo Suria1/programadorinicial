@@ -4,20 +4,22 @@
  font-family: "Roboto", sans-serif;
 */
 .margen {
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
-.footer { 
-    height:500px;
+
+.footer {
+    height: 500px;
     line-height: 40px;
-    background:black;
-    color:white;
-    position:absolute;
-    left:0;
-    width:100%;
+    background: rgb(33, 33, 41);
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
     padding: 20px;
 }
+
 .formulario {
     color: azure;
     font-family: "Roboto", sans-serif;
@@ -26,6 +28,7 @@
     margin: 0px;
     position: relative;
 }
+
 .foot {
     color: azure;
     font-family: "Roboto", sans-serif;
@@ -34,18 +37,27 @@
     margin: 0px;
     position: relative;
 }
+
 h5 {
     font-family: "Roboto", sans-serif;
 }
+
 h2 {
-    font-family: "Alfa Slab One", serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
 }
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
 p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     text-align: center;
 }
+
 .term {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
@@ -54,11 +66,32 @@ p {
     text-align: left;
     padding-top: 20px;
 }
+
 .carousel_letra {
     color: black(255, 123, 0);
     background-color: rgba(169, 169, 169, 0.986);
     font-family: "Roboto", sans-serif;
 }
+
 .card-title {
     text-align: center;
 }
+
+
+
+.tec {
+    color: black;
+    background-color: rgba(240, 255, 255, 0.616);
+
+}
+
+.slides {
+    left: 30px;
+    top: 25px;
+}
+
+.card {
+    width: 25rem;
+}
+
+.accordion {}
