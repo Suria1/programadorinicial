@@ -82,12 +82,8 @@ p {
 .tec {
     color: black;
     background-color: rgba(240, 255, 255, 0.616);
-
-}
-
-.slides {
-    left: 30px;
-    top: 25px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .card {
@@ -95,3 +91,7 @@ p {
 }
 
 .accordion {}
+
+.mapa {
+    
+}
