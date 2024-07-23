@@ -77,8 +77,6 @@ p {
     text-align: center;
 }
 
-
-
 .tec {
     color: black;
     background-color: rgba(240, 255, 255, 0.616);
@@ -89,9 +87,14 @@ p {
 .card {
     width: 25rem;
 }
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+}
 
-.accordion {}
-
-.mapa {
-    
+html {
+    scroll-behavior: smooth;
+}
+.scroll_section{
+    scroll-margin-top: 60px;
 }

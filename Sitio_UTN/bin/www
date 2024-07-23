@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('git:server');
+var debug = require('debug')('sitio-utn:server');
 var http = require('http');
 
 /**
