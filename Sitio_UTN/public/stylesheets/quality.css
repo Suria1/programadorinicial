@@ -21,12 +21,13 @@
 }
 
 .formulario {
-    color: azure;
+    color: rgb(1, 7, 7);
     font-family: "Roboto", sans-serif;
     text-align: left;
     padding: 10px;
-    margin: 0px;
+    margin: 80px;
     position: relative;
+    background-color: rgba(59, 55, 55, 0.568);
 }
 
 .foot {
@@ -40,6 +41,7 @@
 
 h5 {
     font-family: "Roboto", sans-serif;
+    text-align: center
 }
 
 h2 {
@@ -63,7 +65,7 @@ p {
     font-size: 12px;
     line-height: 25px;
     padding-right: 20px;
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
 }
 
@@ -97,4 +99,8 @@ html {
 }
 .scroll_section{
     scroll-margin-top: 60px;
+}
+.buttonform {
+    margin-top: 10px;
+   ;
 }
