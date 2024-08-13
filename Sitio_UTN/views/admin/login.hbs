@@ -1,0 +1,25 @@
+<div class="container" style="margin: 100px auto;"></div>
+        <div class="row">
+            <div>
+                <form class="row" action="/admin/login" method="post">
+                    <div class="col-6 mx-auto">
+                        <label for="usuario" class="form-control">Usuario</label>
+                        <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ingrese usuario">
+                     </div>
+                    <div class="col-6 mx-auto">
+                        <label for="password" class="form-control">Password</label>
+                        <input type="password" class="form-control" id="password" name="password"
+                        placeholder="Ingrese password">
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" class="btn btn-dark buttonform">Enviar</button>
+                    </div>
+
+                </form>
+
+               {{#if error }} 
+                    <p>Usuario o contraseña incorrecta! </p>
+                {{/if}}
+            </div>
+        </div>
+    </div>

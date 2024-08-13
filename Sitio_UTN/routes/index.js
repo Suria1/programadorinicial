@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
   res.render('index');
 });
 
-router.post('/', async(req, res, next) => {
+router.post('/', async (req, res, next) => {
   var email = req.body.email;
   var nombre = req.body.nombre;
   var ciudad = req.body.ciudad;
@@ -37,4 +37,4 @@ router.post('/', async(req, res, next) => {
   });
 });
 
-  module.exports = router;
+module.exports = router;
