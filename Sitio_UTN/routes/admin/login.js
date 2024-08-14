@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var usuario = require('./../../modelos/usuarios')
+var usuariosModel = require('../../modelos/usuariosModel')
 
 router.get('/', function (req, res, next) {
     res.render('admin/login',{
@@ -14,9 +14,7 @@ router.post('/', async (req, res, next) => {
         var usuario = req.body.usuario;
         var password = req.body.password;
 
-
-
-        var data = await usuario.getUserAndPassword (usuario, password);
+        var data = await usuariosModel.getUserAndPassword(usuario, password);
 
         if (data != undefined) {
             req.session.id_usuario = data.id;
