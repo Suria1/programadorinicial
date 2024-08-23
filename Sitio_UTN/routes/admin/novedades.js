@@ -31,7 +31,7 @@ router.post('/agregar', async (req, res, next) => {
 
         console.log(req.body);
 
-        if (req.body.titulo != "" && req.body.subtitulo != "" && req.body.cuerpo != "") {
+        if (req.body.titulo != "" && req.body.subtitulo != "" && req.body.texto != "") {
             await novedadesModel.insertNovedades(req.body);
             res.redirect('/admin/novedades')
         } else {
@@ -58,7 +58,7 @@ router.get('/modificar/:id', async (req, res, next) => {
     var id = req.params.id;
     console.log(id)
 
-    var novedad = await novedadesModel.getNovedadbyId(id);
+    var novedad = await novedadesModel.getNovedadById(id);
     res.render('admin/modificar', {
         layout: 'admin/layout',
         novedad
