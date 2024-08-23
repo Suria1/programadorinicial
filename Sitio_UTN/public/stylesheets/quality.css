@@ -104,3 +104,19 @@ html {
     margin-top: 10px;
    ;
 }
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
