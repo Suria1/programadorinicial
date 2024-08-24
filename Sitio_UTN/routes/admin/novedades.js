@@ -65,6 +65,7 @@ router.get('/modificar/:id', async (req, res, next) => {
     });
 });
 
+
 router.post('/modificar', async (req, res, next) => {
     try {
         console.log(req.body.id);
