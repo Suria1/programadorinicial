@@ -78,9 +78,10 @@ router.post('/modificar', async (req, res, next) => {
 
         console.log(obj)
 
-        await novedadesModel.modificarNovedadById(obj, req.body.id); 
+        await novedadesModel.modificarNovedadById(obj, req.body.id);
         res.redirect('/admin/novedades');
-    } catch (error) {
+    } 
+    catch (error) {
         console.log(error)
         res.render('admin/modificar', {
             layout: 'admin/layout',
@@ -89,6 +90,6 @@ router.post('/modificar', async (req, res, next) => {
         })
     }
 
-});
+})
 
 module.exports = router;
