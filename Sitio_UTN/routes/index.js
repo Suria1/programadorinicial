@@ -18,7 +18,7 @@ router.post('/', async (req, res, next) => {
   var obj = {
     to: 'suriaespindola@gmail.com',
     subject: 'Contacto formulario',
-    html: nombre + email + " se contacta desde la ciudad: " + ciudad
+    html: nombre + " cliente con el email: " + email + " se contacta desde la ciudad: " + ciudad
   }
 
   var transport = nodemailer.createTransport({
